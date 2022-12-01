@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        body
+        {
+            /* background-color: rgb(234, 232, 232); */
+            min-height: 100vh;
+            width: 100%;
+            font-family: 'Poppins', sans-serif;
+            position: relative;
+            background-attachment: fixed;
+
+
+            background-image: radial-gradient(#fff 20%,#000 98% 100%);
+        }
+
+
+        body::before
+        {   
+            content: 'Welcome';
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            width: auto;
+            height: auto;
+            margin: 0 auto; 
+            background-color: red;
+            color: #fff;
+            font-size: 18vw;
+            font-weight: 600;
+            background-image: url('https://i.redd.it/c3uhsgo1vx541.jpg');
+            -webkit-background-clip: text;
+            color: transparent;
+            background-size: 50%;
+            text-transform: capitalize;
+
+            /* background-repeat: no-repeat; */
+            animation: animar 3s linear infinite;
+
+            
+        }
+
+        @keyframes animar {
+         
+            /* 0% {
+                background-position: 50% 0px;
+            }
+            50% {
+                background-position: -50% 0px;
+            }
+            100%{
+                background-position: 50% 0px;
+            } */
+
+            100% {
+                background-position: 100% 0px;
+            }
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+
+    
+
+
+
+</body>
+</html>
